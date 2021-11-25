@@ -1,1 +1,46 @@
-css stuff
+* {
+	text-decoration: none;
+}
+
+header {
+	border-bottom: 1px solid #000000;
+	position: absolute;
+	left: 1px;
+	top: 1px;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.nav-links {
+	text-align: center;
+	padding: 2px;
+	background-color: #000000;
+}
+
+.nav-links a {
+	border: 1px solid #000000;
+	color: #ffffff;
+	margin-right: 5%;
+}
+
+#homebutton {
+	font-size: 2em;
+	text-align: left;
+	color: #000000;
+}
+
+#login {
+	position: absolute;
+	right: 1px;
+	top: 1px;
+	color: #000000;
+
+}
+
+.nav-links a:hover {
+	background-color: darkred;
+}
+
+nav {
+	display: block;
+}
